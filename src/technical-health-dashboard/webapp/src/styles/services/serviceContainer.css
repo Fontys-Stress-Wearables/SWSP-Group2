@@ -1,0 +1,24 @@
+.service-container {
+    padding: 20px;
+    display: inline-block;
+    min-width: 270px;
+    border: 1px solid black;
+}
+
+.service-container-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+select {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+select:focus-visible {
+    outline: none;
+}
